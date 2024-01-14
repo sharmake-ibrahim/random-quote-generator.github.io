@@ -35,7 +35,7 @@ function component() {
                 const data = await response.json();
                 console.log(data);
 
-                quoteText.textContent = `${data.content}`;
+                quoteText.textContent = `${data.content}`; 
                 Author.textContent = `${data.author}`;
 
             }

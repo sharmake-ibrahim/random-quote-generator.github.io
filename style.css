@@ -14,14 +14,16 @@
 
 section {
     margin-top: 3em;
-    height: 300px;
+    min-height: 450px;
      min-width: 45em;
      max-width: 350px;
      width: fit-content;
     display: block;
+    justify-content: center;
     text-align: center;
     line-height: 1.4;
-    padding-top: 5em;
+    padding: 5em 20px;
+
     background-color: #FFFFFF;
     border-radius: 5px;
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
@@ -50,7 +52,7 @@ button {
 
 @media ( max-width: 734px) {
 
-
+      
 }
 
 
