@@ -14,10 +14,9 @@
 
 section {
     margin-top: 3em;
-    min-height: 450px;
-     min-width: 45em;
+    max-height: 450px;
      max-width: 350px;
-     width: fit-content;
+     min-width: fit-content;
     display: block;
     justify-content: center;
     text-align: center;
